@@ -52,7 +52,7 @@ chat:
   create_issues: true
   integrations:
     jira:
-      usage: "enabled"
+      usage: enabled
 
 # Knowledge base settings
 knowledge_base:
@@ -66,9 +66,9 @@ knowledge_base:
     scope: auto
 
   jira:
-    usage: "enabled"
+    usage: enabled
     project_keys:
-      - "PCD0"
+      - PCD0
       
 # Code generation settings
 code_generation:
