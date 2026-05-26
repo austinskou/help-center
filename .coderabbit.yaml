@@ -26,7 +26,7 @@ reviews:
     auto_incremental_review: true
     drafts: false
     base_branches:
-     # - "help-center-base"
+      - "help-center-base"
     
   # Tool integrations
   tools:
