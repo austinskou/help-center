@@ -69,6 +69,7 @@ knowledge_base:
     usage: enabled
     project_keys:
       - PCD0
+      - PER
       
 # Code generation settings
 code_generation:
