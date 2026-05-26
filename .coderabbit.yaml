@@ -50,6 +50,9 @@ reviews:
 chat:
   auto_reply: true
   create_issues: true
+  integrations:
+    jira:
+      usage: "enabled"
 
 # Knowledge base settings
 knowledge_base:
@@ -62,6 +65,11 @@ knowledge_base:
   pull_requests:
     scope: auto
 
+  jira:
+    usage: "enabled"
+    project_keys:
+      - "PCD0"
+      
 # Code generation settings
 code_generation:
   docstrings:
